@@ -8,6 +8,7 @@ class GraphSearch:
         self.fringe = []
         self.closed = []
 
+
     def run(self):
         self.fringe.append(Node(None, None, depth=0, cost=0, state=self.problem.initial_state))
 
